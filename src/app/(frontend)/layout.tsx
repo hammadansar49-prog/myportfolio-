@@ -22,6 +22,9 @@ const mono = JetBrains_Mono({
 
 const SITE_URL = getSiteUrl();
 
+// Content comes from the CMS database, which must not be opened while the site is being built.
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
   const { site } = await getContent();
   return {

@@ -66,4 +66,14 @@ export default buildConfig({
     },
   }),
   sharp,
+  // Make sure the database tables exist before anything is read, also on a fresh production server.
+  onInit: async (payload) => {
+    if (process.env.NODE_ENV !== "production") return;
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      await (payload.db as any).migrate({ migrations });
+    } catch (err) {
+      payload.logger.error({ err, msg: "Running database migrations failed" });
+    }
+  },
 });
