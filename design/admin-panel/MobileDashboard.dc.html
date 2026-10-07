@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mobile dashboard</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+.mono{font-family:'JetBrains Mono',monospace}
+.card{background:#14141a;border:1px solid #26262e;border-radius:16px}
+.tb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:56px;font-size:11px;font-weight:600;color:#8a8a94}
+.tb.on{color:#f2f2ee}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; display: flex; flex-direction: column; background: #0c0c10; color: #f2f2ee; font-family: 'Figtree', sans-serif; overflow: hidden">
+
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid #26262e">
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 32px; height: 32px; border-radius: 9px; background: #f2f2ee; color: #0c0c10; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700">H</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 17px">Portfolio CMS</b></div>
+<a href="MobileEdit.dc.html" aria-label="New project" style="width: 44px; height: 44px; border-radius: 12px; background: #f2f2ee; color: #0c0c10; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
+</header>
+
+<div style="flex: 1; min-height: 0; padding: 18px 16px; display: flex; flex-direction: column; gap: 16px; overflow: hidden">
+<div style="display: flex; flex-direction: column; gap: 2px"><span class="mono" style="font-size: 11px; color: #8a8a94">DASHBOARD</span><h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: -0.02em">Welcome back, Hammad</h1></div>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<a href="MobileEdit.dc.html" class="card" style="padding: 14px; display: flex; flex-direction: column; gap: 2px"><span class="mono" style="font-size: 10px; color: #8a8a94">PROJECTS</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">5</b></a>
+<div class="card" style="padding: 14px; display: flex; flex-direction: column; gap: 2px"><span class="mono" style="font-size: 10px; color: #8a8a94">SERVICES</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">6</b></div>
+<div class="card" style="padding: 14px; display: flex; flex-direction: column; gap: 2px"><span class="mono" style="font-size: 10px; color: #8a8a94">FAQS</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">6</b></div>
+</div>
+
+<section class="card" style="padding: 16px; display: flex; flex-direction: column">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px"><b style="font-family: 'Space Grotesk', sans-serif; font-size: 16px">Finish your portfolio</b><span class="mono" style="font-size: 10px; padding: 3px 8px; border-radius: 999px; border: 1px solid #3a3a45; color: #a3a3ad">3 to do</span></div>
+<a href="MobileEdit.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 56px; border-top: 1px solid #26262e"><span style="width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column; line-height: 1.3"><b style="font-size: 14px">Add result numbers</b><span style="font-size: 12px; color: #8a8a94">5 projects have [ADD: ...]</span></span><span style="color: #a3a3ad">›</span></a>
+<a href="MobileDashboard.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 56px; border-top: 1px solid #26262e"><span style="width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column; line-height: 1.3"><b style="font-size: 14px">Add your email address</b><span style="font-size: 12px; color: #8a8a94">Contact section placeholder</span></span><span style="color: #a3a3ad">›</span></a>
+<a href="MobileDashboard.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 56px; border-top: 1px solid #26262e"><span style="width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column; line-height: 1.3"><b style="font-size: 14px">Real screenshots for 2 projects</b><span style="font-size: 12px; color: #8a8a94">KAROBAR and Notes</span></span><span style="color: #a3a3ad">›</span></a>
+</section>
+
+<section class="card" style="padding: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #3ddc84"></span><div style="display: flex; flex-direction: column; line-height: 1.3"><b style="font-size: 14px">Site is live</b><span style="font-size: 12px; color: #a3a3ad">Saved changes show at once</span></div></div>
+<a href="MobileDashboard.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid #3a3a45; font-size: 13px; font-weight: 700">View ↗</a>
+</section>
+</div>
+
+<nav style="display: flex; border-top: 1px solid #26262e; background: #101015" aria-label="Admin sections">
+<a href="MobileDashboard.dc.html" class="tb on"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Home</a>
+<a href="MobileEdit.dc.html" class="tb"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>Projects</a>
+<a href="MobileDashboard.dc.html" class="tb"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/></svg>Media</a>
+<a href="MobileDashboard.dc.html" class="tb"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1.2l2-1.5-2-3.4-2.3 1a7 7 0 0 0-2-1.2L14.2 3h-4l-.4 2.7a7 7 0 0 0-2 1.2l-2.3-1-2 3.4 2 1.5A7 7 0 0 0 5 12c0 .4 0 .8.1 1.2l-2 1.5 2 3.4 2.3-1a7 7 0 0 0 2 1.2l.4 2.7h4l.4-2.7a7 7 0 0 0 2-1.2l2.3 1 2-3.4-2-1.5c.1-.4.1-.8.1-1.2z"/></svg>Settings</a>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

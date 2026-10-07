@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+.mono{font-family:'JetBrains Mono',monospace}
+.lbl{font-family:'JetBrains Mono',monospace;font-size:11px;color:#a3a3ad;text-transform:uppercase;letter-spacing:.04em}
+.in{display:flex;align-items:center;min-height:46px;padding:10px 14px;border-radius:10px;background:#0c0c10;border:1px solid #2c2c35;font-size:15px;color:#f2f2ee}
+.fld{display:flex;flex-direction:column;gap:7px}
+</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 800px; box-sizing: border-box; display: flex; background: #0c0c10; color: #f2f2ee; font-family: 'Figtree', sans-serif; overflow: hidden">
+
+<div aria-hidden="true" style="position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px); background-size: 28px 28px; -webkit-mask-image: linear-gradient(#000, transparent 85%); mask-image: linear-gradient(#000, transparent 85%)"></div>
+<div aria-hidden="true" style="position: absolute; top: -200px; left: -160px; width: 640px; height: 640px; border-radius: 50%; background: radial-gradient(circle, rgba(242,242,238,0.12), transparent 65%)"></div>
+
+<!-- brand side -->
+<section style="position: relative; flex: 1; min-width: 0; padding: 64px; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 12px"><span style="width: 40px; height: 40px; border-radius: 12px; background: #f2f2ee; color: #0c0c10; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px">H</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px">Portfolio CMS</span></div>
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 480px">
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 52px; line-height: 1.04; letter-spacing: -0.03em">Edit your whole portfolio from one place.</h1>
+<p style="margin: 0; font-size: 17px; color: #a3a3ad">Projects, services, skills, FAQs, photos and contact details. Save, and the website updates.</p>
+</div>
+<span class="mono" style="font-size: 12px; color: #8a8a94">© 2026 Hammad Ansar</span>
+</section>
+
+<!-- form -->
+<section style="position: relative; width: 520px; flex: none; display: flex; align-items: center; justify-content: center; padding: 48px">
+<div style="width: 100%; padding: 36px; border-radius: 24px; background: #14141a; border: 1px solid #26262e; display: flex; flex-direction: column; gap: 22px; box-shadow: 0 30px 80px rgba(0,0,0,0.5)">
+<div style="display: flex; flex-direction: column; gap: 6px"><h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; letter-spacing: -0.02em">Log in</h2><span style="font-size: 14px; color: #a3a3ad">Use the admin account you created.</span></div>
+<div class="fld"><label class="lbl" for="e">Email</label><div class="in" id="e" style="color: #8a8a94">you@example.com</div></div>
+<div class="fld"><div style="display: flex; justify-content: space-between"><label class="lbl" for="p">Password</label><a href="Login.dc.html" style="font-size: 12px; color: #a3a3ad">Forgot password?</a></div><div class="in" id="p" style="justify-content: space-between; color: #8a8a94">••••••••••<span style="font-size: 12px">Show</span></div></div>
+<a href="Main.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 12px; background: #f2f2ee; color: #0c0c10; font-weight: 700; font-size: 16px">Log in</a>
+<div style="display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 12px; background: #101015; border: 1px solid #26262e; font-size: 13px; color: #a3a3ad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Only you can sign in. There is no public sign-up.</div>
+</div>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

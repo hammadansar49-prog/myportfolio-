@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dashboard</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+.nav a{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:10px;font-size:14px;font-weight:600;color:#a3a3ad}
+.nav a.on{background:#f2f2ee;color:#0c0c10}
+.nav svg{flex:none}
+.card{background:#14141a;border:1px solid #26262e;border-radius:18px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:10px;font-weight:700;font-size:14px;background:#f2f2ee;color:#0c0c10}
+.btn.ghost{background:transparent;color:#f2f2ee;border:1px solid #3a3a45}
+.mono{font-family:'JetBrains Mono',monospace}
+</style>
+</helmet>
+<div style="width: 1280px; height: 800px; box-sizing: border-box; display: flex; background: #0c0c10; color: #f2f2ee; font-family: 'Figtree', sans-serif; overflow: hidden">
+
+<!-- sidebar -->
+<aside style="width: 244px; flex: none; box-sizing: border-box; padding: 22px 16px; border-right: 1px solid #26262e; background: #101015; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 0 6px">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #f2f2ee; color: #0c0c10; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700">H</span>
+<div style="display: flex; flex-direction: column; line-height: 1.2"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px">Portfolio CMS</span><span class="mono" style="font-size: 11px; color: #8a8a94">Hammad Ansar</span></div>
+</div>
+<nav class="nav" style="display: flex; flex-direction: column; gap: 4px" aria-label="Admin">
+<a href="Main.dc.html" class="on"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Dashboard</a>
+<a href="Projects.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>Projects</a>
+<a href="Main.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>Services</a>
+<a href="Main.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>Skills</a>
+<a href="Main.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/></svg>FAQs</a>
+<a href="Media.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/></svg>Media</a>
+<a href="SiteSettings.dc.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1.2l2-1.5-2-3.4-2.3 1a7 7 0 0 0-2-1.2L14.2 3h-4l-.4 2.7a7 7 0 0 0-2 1.2l-2.3-1-2 3.4 2 1.5A7 7 0 0 0 5 12c0 .4 0 .8.1 1.2l-2 1.5 2 3.4 2.3-1a7 7 0 0 0 2 1.2l.4 2.7h4l.4-2.7a7 7 0 0 0 2-1.2l2.3 1 2-3.4-2-1.5c.1-.4.1-.8.1-1.2z"/></svg>Site settings</a>
+</nav>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px">
+<a href="Login.dc.html" class="card" style="display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 12px">
+<span style="width: 32px; height: 32px; border-radius: 50%; background: #1d1d25; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">A</span>
+<span style="display: flex; flex-direction: column; line-height: 1.2"><span style="font-size: 13px; font-weight: 700">Admin</span><span style="font-size: 12px; color: #8a8a94">Log out</span></span>
+</a>
+</div>
+</aside>
+
+<!-- main -->
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 32px; border-bottom: 1px solid #26262e">
+<div style="display: flex; flex-direction: column; line-height: 1.2"><span class="mono" style="font-size: 11px; color: #8a8a94">ADMIN / DASHBOARD</span><h1 style="margin: 4px 0 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: -0.02em">Welcome back, Hammad</h1></div>
+<div style="display: flex; gap: 10px">
+<a href="https://theottdeals.com" class="btn ghost">View live site ↗</a>
+<a href="ProjectEdit.dc.html" class="btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>New project</a>
+</div>
+</header>
+
+<div style="flex: 1; min-height: 0; padding: 26px 32px; display: flex; flex-direction: column; gap: 20px; overflow: hidden">
+
+<!-- stats -->
+<section style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px" aria-label="Content totals">
+<a href="Projects.dc.html" class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><span class="mono" style="font-size: 11px; color: #8a8a94">PROJECTS</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; line-height: 1">5</b><span style="font-size: 12px; color: #a3a3ad">5 published</span></a>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><span class="mono" style="font-size: 11px; color: #8a8a94">SERVICES</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; line-height: 1">6</b><span style="font-size: 12px; color: #a3a3ad">shown on home</span></div>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><span class="mono" style="font-size: 11px; color: #8a8a94">SKILL GROUPS</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; line-height: 1">4</b><span style="font-size: 12px; color: #a3a3ad">in 4 groups</span></div>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><span class="mono" style="font-size: 11px; color: #8a8a94">FAQS</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; line-height: 1">6</b><span style="font-size: 12px; color: #a3a3ad">questions</span></div>
+<a href="Media.dc.html" class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><span class="mono" style="font-size: 11px; color: #8a8a94">MEDIA</span><b style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; line-height: 1">4</b><span style="font-size: 12px; color: #a3a3ad">images</span></a>
+</section>
+
+<div style="display: flex; gap: 20px; min-height: 0; flex: 1">
+
+<!-- to finish -->
+<section class="card" style="flex: 3; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; justify-content: space-between"><h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 18px">Finish your portfolio</h2><span class="mono" style="font-size: 11px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3a3a45; color: #a3a3ad">4 to do</span></div>
+<p style="margin: 0; font-size: 14px; color: #a3a3ad">These still contain placeholder text. Fill them in so visitors see real results.</p>
+<div style="display: flex; flex-direction: column">
+<a href="ProjectEdit.dc.html" style="display: flex; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #26262e"><span style="width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column"><b style="font-size: 15px">Add result numbers to your projects</b><span style="font-size: 13px; color: #8a8a94">Orders, users, visitors: the [ADD: ...] text in 5 projects</span></span><span class="mono" style="font-size: 12px; color: #a3a3ad">Projects →</span></a>
+<a href="SiteSettings.dc.html" style="display: flex; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #26262e"><span style="width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column"><b style="font-size: 15px">Add your email address</b><span style="font-size: 13px; color: #8a8a94">Contact section shows a placeholder until you add it</span></span><span class="mono" style="font-size: 12px; color: #a3a3ad">Settings →</span></a>
+<a href="Media.dc.html" style="display: flex; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #26262e"><span style="width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid #5a5a66; flex: none"></span><span style="flex: 1; display: flex; flex-direction: column"><b style="font-size: 15px">Add real screenshots for KAROBAR and Notes</b><span style="font-size: 13px; color: #8a8a94">They use illustrated mockups right now</span></span><span class="mono" style="font-size: 12px; color: #a3a3ad">Media →</span></a>
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #26262e"><span style="width: 22px; height: 22px; border-radius: 50%; background: #3ddc84; color: #0c0c10; display: flex; align-items: center; justify-content: center; flex: none"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span style="flex: 1; display: flex; flex-direction: column"><b style="font-size: 15px; color: #a3a3ad">WhatsApp number set</b><span style="font-size: 13px; color: #8a8a94">Used by every WhatsApp button on the site</span></span></a>
+</div>
+</section>
+
+<!-- quick actions + status -->
+<div style="flex: 2; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<section class="card" style="padding: 20px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0 0 4px; font-family: 'Space Grotesk', sans-serif; font-size: 18px">Quick actions</h2>
+<a href="SiteSettings.dc.html" class="btn ghost" style="justify-content: space-between">Edit hero text <span>→</span></a>
+<a href="SiteSettings.dc.html" class="btn ghost" style="justify-content: space-between">Change WhatsApp number <span>→</span></a>
+<a href="Media.dc.html" class="btn ghost" style="justify-content: space-between">Upload an image <span>→</span></a>
+</section>
+<section class="card" style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #3ddc84"></span><b style="font-size: 15px">Site is live</b></div>
+<span style="font-size: 13px; color: #a3a3ad">Changes you save appear on the website straight away.</span>
+</section>
+</div>
+
+</div>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
