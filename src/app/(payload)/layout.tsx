@@ -1,5 +1,8 @@
 import config from "@payload-config";
 import "@payloadcms/next/css";
+import "@fontsource-variable/space-grotesk";
+import "@fontsource-variable/figtree";
+import "@fontsource-variable/jetbrains-mono";
 import type { ServerFunctionClient } from "payload";
 import { handleServerFunctions, RootLayout } from "@payloadcms/next/layouts";
 import React from "react";

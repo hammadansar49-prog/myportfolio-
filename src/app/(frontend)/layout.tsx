@@ -1,24 +1,11 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Figtree, JetBrains_Mono } from "next/font/google";
+// Fonts are bundled from npm (no download from Google during the build).
+import "@fontsource-variable/space-grotesk";
+import "@fontsource-variable/figtree";
+import "@fontsource-variable/jetbrains-mono";
 import { getContent } from "@/lib/content";
 import { getSiteUrl } from "@/lib/siteUrl";
 import "./globals.css";
-
-const display = Space_Grotesk({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
-
-const body = Figtree({
-  variable: "--font-body",
-  subsets: ["latin"],
-});
-
-const mono = JetBrains_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-});
 
 const SITE_URL = getSiteUrl();
 
@@ -47,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

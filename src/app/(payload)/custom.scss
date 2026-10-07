@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
-
 // Portfolio CMS skin: matches the website (dark ground, off-white accent).
 html[data-theme="dark"],
 :root {
-  --font-body: "Figtree", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --font-serif: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Figtree Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --font-serif: "Space Grotesk Variable", system-ui, sans-serif;
   --style-radius-s: 8px;
   --style-radius-m: 12px;
   --style-radius-l: 18px;
