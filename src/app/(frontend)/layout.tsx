@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Figtree, JetBrains_Mono } from "next/font/google";
 import { getContent } from "@/lib/content";
+import { getSiteUrl } from "@/lib/siteUrl";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -19,7 +20,7 @@ const mono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_URL = getSiteUrl();
 
 export async function generateMetadata(): Promise<Metadata> {
   const { site } = await getContent();

@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { RefreshRouteOnSave } from "@payloadcms/live-preview-react";
+import { getSiteUrl } from "@/lib/siteUrl";
 
 /** Refreshes the page when you save inside the CMS live preview. Renders nothing visible. */
 export default function LivePreview() {
@@ -9,7 +10,7 @@ export default function LivePreview() {
   return (
     <RefreshRouteOnSave
       refresh={() => router.refresh()}
-      serverURL={process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}
+      serverURL={getSiteUrl()}
     />
   );
 }

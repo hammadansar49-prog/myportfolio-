@@ -12,8 +12,10 @@ import { Services } from "./collections/Services";
 import { SkillGroups } from "./collections/SkillGroups";
 import { Faqs } from "./collections/Faqs";
 import { Site } from "./globals/Site";
+import { getSiteUrl } from "./lib/siteUrl";
+import { migrations } from "./migrations";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const SITE_URL = getSiteUrl();
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -55,7 +57,13 @@ export default buildConfig({
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
   db: sqliteAdapter({
-    client: { url: process.env.DATABASE_URL || "file:./data.db" },
+    // In production the tables are created by the migrations in src/migrations (dev uses automatic push).
+    prodMigrations: migrations,
+    client: {
+      url: process.env.DATABASE_URL || "file:./data.db",
+      // Needed for hosted libSQL databases such as Turso. Leave empty for a local file.
+      authToken: process.env.DATABASE_AUTH_TOKEN || undefined,
+    },
   }),
   sharp,
 });
