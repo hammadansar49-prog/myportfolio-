@@ -172,6 +172,12 @@ See `.env.example`.
 
 SQLite and local file uploads do not persist on serverless hosts such as Vercel. For production, switch Payload to a hosted database (Postgres) and store uploads in cloud storage, then set the environment variables above on the host.
 
+### Project record
+
+- [docs/PROJECT_NOTES.md](docs/PROJECT_NOTES.md): every decision, the deploy setup, build fixes, content and open items.
+- [docs/cover-photo/](docs/cover-photo/): LinkedIn banners and cover photo text.
+- [design/](design/): design sources for portfolio V1, V2 and the admin panel.
+
 ### Project layout
 
 ```
@@ -182,6 +188,7 @@ src/globals          the Site settings global
 src/components       website components (and src/components/admin for admin branding)
 src/lib              default content, CMS data loader, validators, seed
 design/              design sources: portfolio versions 1 and 2, and the admin panel design
+docs/                project notes and LinkedIn cover photos
 ```
 
 ---
