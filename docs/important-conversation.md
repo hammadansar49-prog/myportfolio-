@@ -3559,8 +3559,43 @@ Want something like this for your store? DM me.
 - Koi mulk ka naam nahi, koi unconfirmed number nahi.
 - CTA: "DM me" (maqsad: profile visits/DMs, koi screenshot available nahi isliye proof-screenshot nahi diya).
 - Post time plan: Juma, 10:00 AM (Pakistan time).
-- **Image idea (approved, banani baqi hai):** dark premium style, "Before / After" do price cards — generic $ price vs generic local-currency price, koi mulk ka naam/symbol specific nahi.
-- **Status: text ready + approved, image abhi banani hai.**
+- **UPDATE — Hammad ne naya, confirmed material diya hai, isliye text update hua:**
+  - Shuru mein orders **0 ke barabar** the.
+  - Sirf do cheezein badli: (1) prices ko local currency mein convert kiya, (2) SEO thodi behtar ki.
+  - Impressions **1k–2k se seedha 30k** pe jump hue.
+  - **Admin panel system** khud order ki currency pehchanta hai aur usay **real/current exchange rate** se PKR mein convert kar deta hai — isse order receive karne ki speed aur samajhne ki speed dono barhi.
+  - **Sales 400% tak barhin.**
+  - Yeh numbers ab **confirmed** hain (Hammad ne khud diye), isliye CLAUDE.md rule 3 ke mutabiq istemal ho sakte hain.
+- **Text (FINAL — purana aur naya dono mix karke):**
+```
+When I launched TheOttDeals, orders were basically zero.
+
+I changed two things: every visitor started seeing the price in
+their own local currency, and I improved the SEO a little.
+
+That's it. Impressions jumped from 1–2k to 30k.
+
+Then I noticed something else. People were placing orders in
+their own currency — so on my side, I built the admin panel to
+auto-convert every order into PKR using the live exchange rate.
+No manual math, no guessing which currency an order was in or
+what it was worth. Just an instant, accurate number.
+
+That one system change didn't just make my life easier.
+It made customers trust the price they saw, order faster,
+and come back.
+
+Sales went up 400%.
+
+If your store still shows one price to the whole world,
+you're not just losing a few orders — you're losing a multiplier.
+
+Want something like this for your store? DM me.
+
+#Ecommerce #WebDevelopment #Localization #FullStack
+```
+- **Image idea (approved, banani baqi hai):** dark premium style — ek bara "400%" headline number, chhote mein "1–2k → 30k impressions" aur currency-convert ka visual (jaise ek order card jisme currency PKR mein auto-convert ho rahi dikhe), koi mulk ka naam (Pakistan ke alawa, jo already public hai) ya fake brand nahi.
+- **Status: text ready + approved (final, numbers confirmed), image abhi banani hai.**
 
 **Agla kaam:** Post 4 ki image banana. Phir Jumeraat/Juma ke alawa, agar aur posts banani hon to Story Bank se naya material chahiye hoga (abhi tak Story Bank ka sab material 4 posts mein use ho chuka hai).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
