@@ -3417,7 +3417,7 @@ Repo check karne ko kaha, is `important-conversation.md` ko dekha, phir "pehli p
 
 ### 🤖 Claude  ·  2026-10-26
 
-**✅ Pehli post (Mangal, "SEO ab sirf Google ke liye nahi") DONE/READY hai — ab banwani nahi.**
+**✅ Pehli post (Mangal, "SEO ab sirf Google ke liye nahi") UPLOADED HO GAYI HAI LinkedIn par — ab dobara mat banana.**
 
 - **Image (Canva link):** https://canva.link/l4ss7hqykcqcgys
 - **Text:**
@@ -3447,9 +3447,9 @@ Is your business showing up where AI is now looking?
 #SEO #WebDevelopment #AI #FullStack
 ```
 - Country ka naam nahi liya, number nahi likha, "pehli post" ka zikr nahi.
-- **Status: ready, LinkedIn par abhi upload nahi hui.**
+- **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
-**✅ 2nd post (Budh, carousel) bhi DONE/READY hai — ab banwani nahi.**
+**✅ 2nd post (Budh, carousel) bhi UPLOADED HO GAYI HAI LinkedIn par — ab dobara mat banana.**
 
 - **Carousel (Canva link, 7 slides):** https://canva.link/0llby9ve4v71rkw
 - Slides: (1) Hook — "The subscription system behind a business that doesn't fall apart" (2) Payments that renew on their own (3) An admin panel the owner can actually use (4) Customer communication that's automatic (5) Pricing that adapts to the visitor (local currency) (6) Someone keeping it running after launch (7) CTA — "Save this for the next time you're planning a subscription product"
@@ -3474,7 +3474,7 @@ Save this if you're building (or fixing) a subscription product.
 ```
 - Carousel chuna gaya kyunke dwell time (30–60 sec) sabse zyada impressions laata hai; CTA "save karo" rakha gaya taake saves barhen.
 - Post time: 9:30 AM (Pakistan time).
-- **Status: ready, LinkedIn par abhi upload nahi hui.**
+- **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
 **Agla kaam:** Jumeraat (apni kahani) aur Juma (proof/offer) ki posts abhi banani baqi hain — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd post" ka zikr nahi).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
