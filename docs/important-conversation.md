@@ -3594,8 +3594,55 @@ Want something like this for your store? DM me.
 
 #Ecommerce #WebDevelopment #Localization #FullStack
 ```
-- **Image idea (approved, banani baqi hai):** dark premium style — ek bara "400%" headline number, chhote mein "1–2k → 30k impressions" aur currency-convert ka visual (jaise ek order card jisme currency PKR mein auto-convert ho rahi dikhe), koi mulk ka naam (Pakistan ke alawa, jo already public hai) ya fake brand nahi.
-- **Status: text ready + approved (final, numbers confirmed), image abhi banani hai.**
+- **Asli TheOttDeals logo mila** (yellow TV-icon + "THEOTTDEALS" wordmark, black bg) — save kiya gaya hai: `docs/theottdeals-brand/logo.png`.
+- **✅ Image ban gayi hai** (asli logo use karke, gold/black TheOttDeals brand): https://www.canva.com/M/MAHZJQT1ZG4
+  - ⚠️ **Masla:** image mein Canva ne khud ek illustrative example daal diya — "$49.99 → Rs. 13,999" — yeh number **Hammad ne confirm nahi kiya**, isliye CLAUDE.md rule 3 (no unconfirmed numbers) todta hai. **Post karne se pehle ya to yeh number hataana/regenerate karna hai, ya Hammad ka koi asli confirmed price number daalna hai.**
+- **Text ko "detailed" version mein expand kiya gaya hai** (Hammad ne kaha "thora detailed... behtar ho jayega"). Naya, lamba version:
+```
+When I launched TheOttDeals, orders were basically zero.
+
+Not a slow start. Zero. People visited, looked around, and left
+without buying.
+
+I changed two things. First, every visitor started seeing the
+price in their own local currency instead of a flat dollar price.
+Second, I went back and improved the SEO — better product pages,
+better structure, nothing fancy, just done properly this time.
+
+That's it. Impressions jumped from 1–2k to 30k.
+
+But the bigger change showed up after that. People started placing
+orders in their own currency, which meant I was now receiving
+payments in currencies I had to manually check, convert, and
+double-check every single time. It was slow, and it was easy to
+get wrong.
+
+So I built it into the system itself. The admin panel now
+auto-converts every incoming order into PKR using the live
+exchange rate the moment it comes in. No manual math. No guessing
+what currency an order was in or what it was actually worth.
+Just an instant, accurate number, every time.
+
+That one system change did two things at once. It made my own
+side of the business faster and far less error-prone. And on the
+customer's side, it made the price they saw feel real and
+trustworthy — not a rough dollar estimate they had to convert
+in their head.
+
+People started ordering faster. And they started coming back.
+
+Sales went up 400%.
+
+If your store still shows the same price to the entire world,
+you're probably not losing "a few" orders. You're losing a
+multiplier — people who were ready to buy, but closed the tab
+before they even got to checkout.
+
+Want something like this for your store? DM me.
+
+#Ecommerce #WebDevelopment #Localization #FullStack
+```
+- **Status: text diya gaya hai (abhi Hammad se final confirm hona baqi hai), image ban chuki hai lekin usme ek unconfirmed price number hai jo theek karna hai post se pehle.**
 
 **Agla kaam:** Post 4 ki image banana. Phir Jumeraat/Juma ke alawa, agar aur posts banani hon to Story Bank se naya material chahiye hoga (abhi tak Story Bank ka sab material 4 posts mein use ho chuka hai).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
