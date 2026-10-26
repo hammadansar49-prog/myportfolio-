@@ -3511,7 +3511,9 @@ What's the one thing you refused to compromise on when you built your product?
   - `04-match-cta-banner.webp` — red gradient CTA banner "Tonight's match is already on." + stats (18,400+ channels, 60,000+ films, 24 hours trial)
 - **Brand ka asli rang pata chal gaya:** site ka actual theme **black background + red/orange (#FF4433 jaisa) accent** hai, logo ek red rounded-square play-icon hai "MY IPTV" text ke saath — pehle jo premium post-image style (white/mono accent) use ho rahi thi, uski jagah **is post ki image MY IPTV ke apne red/black brand mein** banani hai, taake screenshot se match kare.
 - **Agle session/laptop ke liye seedha kaam:** in 4 screenshots ko Canva mein upload karo (`create-upload-url` → raw bytes POST → `upload-asset-from-url` ya seedha attachment upload), phir red/black MY IPTV brand style mein ek "sexy" premium LinkedIn image banao jisme in screenshots ka ek (jaise mobile 4-screen wala `03-mobile-home-live-player.webp`, ya Windows series grid `02-windows-app-series.webp`) istemal ho. Text upar wala text hi use karna hai (already approved, badalna nahi).
-- **Status: text ready + approved, screenshots ready (repo mein), image abhi banani hai. Phir post upload hogi.**
+- **✅ Image ban gayi hai (dusre Canva session connect hone ke baad, quota wapas aane par).** MY IPTV ke asli red/black brand mein, real mobile screenshot (`03-mobile-home-live-player.webp`) ke saath, headline "Built for speed."
+  - **Image link:** https://www.canva.com/M/MAHZJd9ydJE
+- **Status: text + image dono ready hain. Bas LinkedIn par upload karna baqi hai.**
 
 **Agla kaam:** Jumeraat post ki image (screenshots milne ke baad). Phir Juma (proof/offer) ki post abhi banani baqi hai — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
