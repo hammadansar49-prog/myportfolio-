@@ -3522,5 +3522,45 @@ What's the one thing you refused to cut corners on when you built your product?
   - **Image link:** https://www.canva.com/M/MAHZJd9ydJE
 - **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
-**Agla kaam:** Jumeraat post ki image (screenshots milne ke baad). Phir Juma (proof/offer) ki post abhi banani baqi hai — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi).
+---
+
+### 🤖 Claude  ·  2026-10-26 (isi session, aage)
+
+**✅ 4th post (Juma, "Proof/Offer" — TheOttDeals local currency before/after) ka TEXT APPROVED hai (easy English version). Image abhi BAQI hai.**
+
+- **Text (APPROVED, final):**
+```
+Before: every visitor on TheOttDeals saw prices in dollars.
+Orders from outside Pakistan almost never came in.
+
+Not because people didn't want the product.
+Because when you see a price in a currency that isn't yours,
+you pause, try to do the math, and just close the tab.
+
+So I changed one thing. Now every visitor sees the price in
+their own local currency. Automatically.
+
+After: people stopped hesitating. Orders started coming in from
+places they weren't before. People bought faster, because the
+price finally made sense to them.
+
+One small change. A completely different result.
+
+If your store shows the same price to everyone, you're probably
+losing customers you never even see — because they leave before
+they try to check out.
+
+Want something like this for your store? DM me.
+
+#Ecommerce #WebDevelopment #Localization #FullStack
+```
+- Brand naam "TheOttDeals" likha hai, **bina `.com`** (CLAUDE.md rule ke mutabiq — `.com` likhna link jaisa treat hota hai aur reach girati hai).
+- Story Bank se material: shuru mein dollar price ki wajah se bahar se orders nahi aate the; local currency (har visitor ko apni currency dikhana) lagane ke baad orders aane lage aur log jaldi faisla karne lage.
+- Koi mulk ka naam nahi, koi unconfirmed number nahi.
+- CTA: "DM me" (maqsad: profile visits/DMs, koi screenshot available nahi isliye proof-screenshot nahi diya).
+- Post time plan: Juma, 10:00 AM (Pakistan time).
+- **Image idea (approved, banani baqi hai):** dark premium style, "Before / After" do price cards — generic $ price vs generic local-currency price, koi mulk ka naam/symbol specific nahi.
+- **Status: text ready + approved, image abhi banani hai.**
+
+**Agla kaam:** Post 4 ki image banana. Phir Jumeraat/Juma ke alawa, agar aur posts banani hon to Story Bank se naya material chahiye hoga (abhi tak Story Bank ka sab material 4 posts mein use ho chuka hai).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.

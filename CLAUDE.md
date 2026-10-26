@@ -7,6 +7,7 @@ For the full project/post history, always read `docs/important-conversation.md` 
 ## Hard rules (never break these on a LinkedIn post without saying so first)
 
 1. **No link inside the post body.** LinkedIn's algorithm suppresses reach when a post links off-platform. Always leave the link out of the post text, and instead tell Hammad to paste it as the **first comment** right after posting.
+   - This includes domain-style mentions: write the brand name **without `.com`** (e.g. "TheOttDeals", "MY IPTV") inside the post body — never "theottdeals.com" or any `.com`/`.io` etc. in the post text itself, since that reads as a link too and can hurt reach the same way.
 2. **No country names**, unless there is official/confirmed work with that country. Use neutral phrasing ("local currency", "trusted sellers near me", "bahar se orders") instead.
 3. **No unconfirmed numbers.** If a stat, percentage, or dollar figure isn't confirmed by Hammad with an exact value, don't use it — use a qualitative phrase instead ("most customers", "a couple of months later").
 4. **Never reveal post sequencing in the post itself** — don't write "this is my first/2nd/3rd post" etc.
