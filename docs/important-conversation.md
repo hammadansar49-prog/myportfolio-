@@ -3595,8 +3595,11 @@ Want something like this for your store? DM me.
 #Ecommerce #WebDevelopment #Localization #FullStack
 ```
 - **Asli TheOttDeals logo mila** (yellow TV-icon + "THEOTTDEALS" wordmark, black bg) — save kiya gaya hai: `docs/theottdeals-brand/logo.png`.
-- Pehli image attempt mein fake/unconfirmed price number tha ("$49.99 → Rs. 13,999") — Hammad ne "bekart hai" keh kar reject kiya. **Clean version dobara banayi gayi, bina kisi fake number ke.**
-- **✅ FINAL image:** https://www.canva.com/M/MAHZJQupf9c — gold/black TheOttDeals brand, asli logo, sirf confirmed stats ("400% SALES GROWTH", "30K impressions", "Auto currency conversion").
+- Pehli image attempt mein fake/unconfirmed price number tha ("$49.99 → Rs. 13,999") — Hammad ne "bekart hai" keh kar reject kiya.
+- Doosri image (clean stat-card version, bina fake number) bhi Hammad ne "bekart hai, mzeed behtri ki zaroorat hai" keh kar reject ki.
+- Teesri image: zyada dynamic version banayi — gold growth-arrow line jo world-map dots ke upar 3 milestones (1-2K → 30K → 400%) dikhati hai. Hammad ne kaha "achi hai, ab mzeed refined ki zaroorat hai."
+- Chauthi image: teesri wali ko refine kiya — behtar logo placement, "400% sales growth" sabse bara/bold hero stat, behtar spacing/alignment, smooth line + sharp arrowhead.
+- **✅ FINAL image (UPLOADED):** https://www.canva.com/M/MAHZJTijB04 — gold/black TheOttDeals brand, asli logo, growth-arrow + 3 milestones (1-2K impressions → 30K impressions → 400% sales growth).
 - **✅ FINAL text (Hammad ne confirm kiya "yehi thek hai bs" — yeh wahi medium-length version hai, "detailed" wala expand version NAHI use hua):**
 ```
 When I launched TheOttDeals, orders were basically zero.
@@ -3625,7 +3628,7 @@ Want something like this for your store? DM me.
 
 #Ecommerce #WebDevelopment #Localization #FullStack
 ```
-- **Status: text + image dono FINAL/ready. Bas LinkedIn par upload karna baqi hai.**
+- **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
 **Agla kaam:** Post 4 ki image banana. Phir Jumeraat/Juma ke alawa, agar aur posts banani hon to Story Bank se naya material chahiye hoga (abhi tak Story Bank ka sab material 4 posts mein use ho chuka hai).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
