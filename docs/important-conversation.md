@@ -3476,5 +3476,36 @@ Save this if you're building (or fixing) a subscription product.
 - Post time: 9:30 AM (Pakistan time).
 - **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
-**Agla kaam:** Jumeraat (apni kahani) aur Juma (proof/offer) ki posts abhi banani baqi hain — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd post" ka zikr nahi).
+---
+
+### 🤖 Claude  ·  2026-10-26 (isi session, baad mein)
+
+**✅ 3rd post (Jumeraat, "apni kahani" — MY IPTV ki speed) ka TEXT APPROVED hai. Image abhi BAQI hai.**
+
+- **Text (APPROVED, final — isse badalna nahi):**
+```
+Posters wouldn't load. Videos would lag the second you pressed play.
+
+So when I built MY IPTV, speed was the one thing I refused to compromise on.
+No lazy loading. A buffered-range system that keeps playback ready
+before you even notice it loading.
+
+Now the home screen and video both open in under a second.
+If something does buffer, I've checked it myself — it's the
+viewer's internet, not the app.
+
+I didn't set out to build "another IPTV app."
+I set out to fix the two things that made every other one feel broken.
+
+What's the one thing you refused to compromise on when you built your product?
+
+#MobileApp #SoftwareDevelopment #ProductBuilding #FullStack
+```
+- Story Bank se material: MY IPTV mein doosre apps posters load nahi karte the, lag hoti thi; mere app mein buffered-range system + no lazy loading se video aur home 1 second mein khulte hain; buffering ho to woh user ke internet ki wajah se hoti hai (khud check kiya).
+- Rules follow hui: koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi.
+- **Image abhi nahi bani** (Canva ka generation quota is session mein hit ho gaya tha).
+- **IMPORTANT — image banane se pehle:** Hammad **MY IPTV ke actual logo aur real app screenshots** bhejega. Woh asli logo/screenshots Canva image mein istemal karne hain (generic/fake IPTV UI nahi banana), phir usi premium dark/glow brand style mein ek "sexy" picture banwani hai.
+- **Status: text ready + approved, image Hammad ke screenshots/logo ka intezar kar rahi hai. Phir post upload hogi.**
+
+**Agla kaam:** Jumeraat post ki image (screenshots milne ke baad). Phir Juma (proof/offer) ki post abhi banani baqi hai — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
