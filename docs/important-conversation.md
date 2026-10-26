@@ -3595,54 +3595,37 @@ Want something like this for your store? DM me.
 #Ecommerce #WebDevelopment #Localization #FullStack
 ```
 - **Asli TheOttDeals logo mila** (yellow TV-icon + "THEOTTDEALS" wordmark, black bg) — save kiya gaya hai: `docs/theottdeals-brand/logo.png`.
-- **✅ Image ban gayi hai** (asli logo use karke, gold/black TheOttDeals brand): https://www.canva.com/M/MAHZJQT1ZG4
-  - ⚠️ **Masla:** image mein Canva ne khud ek illustrative example daal diya — "$49.99 → Rs. 13,999" — yeh number **Hammad ne confirm nahi kiya**, isliye CLAUDE.md rule 3 (no unconfirmed numbers) todta hai. **Post karne se pehle ya to yeh number hataana/regenerate karna hai, ya Hammad ka koi asli confirmed price number daalna hai.**
-- **Text ko "detailed" version mein expand kiya gaya hai** (Hammad ne kaha "thora detailed... behtar ho jayega"). Naya, lamba version:
+- Pehli image attempt mein fake/unconfirmed price number tha ("$49.99 → Rs. 13,999") — Hammad ne "bekart hai" keh kar reject kiya. **Clean version dobara banayi gayi, bina kisi fake number ke.**
+- **✅ FINAL image:** https://www.canva.com/M/MAHZJQupf9c — gold/black TheOttDeals brand, asli logo, sirf confirmed stats ("400% SALES GROWTH", "30K impressions", "Auto currency conversion").
+- **✅ FINAL text (Hammad ne confirm kiya "yehi thek hai bs" — yeh wahi medium-length version hai, "detailed" wala expand version NAHI use hua):**
 ```
 When I launched TheOttDeals, orders were basically zero.
 
-Not a slow start. Zero. People visited, looked around, and left
-without buying.
-
-I changed two things. First, every visitor started seeing the
-price in their own local currency instead of a flat dollar price.
-Second, I went back and improved the SEO — better product pages,
-better structure, nothing fancy, just done properly this time.
+I changed two things: every visitor started seeing the price in
+their own local currency, and I improved the SEO a little.
 
 That's it. Impressions jumped from 1–2k to 30k.
 
-But the bigger change showed up after that. People started placing
-orders in their own currency, which meant I was now receiving
-payments in currencies I had to manually check, convert, and
-double-check every single time. It was slow, and it was easy to
-get wrong.
+Then I noticed something else. People were placing orders in
+their own currency — so on my side, I built the admin panel to
+auto-convert every order into PKR using the live exchange rate.
+No manual math, no guessing which currency an order was in or
+what it was worth. Just an instant, accurate number.
 
-So I built it into the system itself. The admin panel now
-auto-converts every incoming order into PKR using the live
-exchange rate the moment it comes in. No manual math. No guessing
-what currency an order was in or what it was actually worth.
-Just an instant, accurate number, every time.
-
-That one system change did two things at once. It made my own
-side of the business faster and far less error-prone. And on the
-customer's side, it made the price they saw feel real and
-trustworthy — not a rough dollar estimate they had to convert
-in their head.
-
-People started ordering faster. And they started coming back.
+That one system change didn't just make my life easier.
+It made customers trust the price they saw, order faster,
+and come back.
 
 Sales went up 400%.
 
-If your store still shows the same price to the entire world,
-you're probably not losing "a few" orders. You're losing a
-multiplier — people who were ready to buy, but closed the tab
-before they even got to checkout.
+If your store still shows one price to the whole world,
+you're not just losing a few orders — you're losing a multiplier.
 
 Want something like this for your store? DM me.
 
 #Ecommerce #WebDevelopment #Localization #FullStack
 ```
-- **Status: text diya gaya hai (abhi Hammad se final confirm hona baqi hai), image ban chuki hai lekin usme ek unconfirmed price number hai jo theek karna hai post se pehle.**
+- **Status: text + image dono FINAL/ready. Bas LinkedIn par upload karna baqi hai.**
 
 **Agla kaam:** Post 4 ki image banana. Phir Jumeraat/Juma ke alawa, agar aur posts banani hon to Story Bank se naya material chahiye hoga (abhi tak Story Bank ka sab material 4 posts mein use ho chuka hai).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
