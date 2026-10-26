@@ -3482,22 +3482,28 @@ Save this if you're building (or fixing) a subscription product.
 
 **✅ 3rd post (Jumeraat, "apni kahani" — MY IPTV ki speed) UPLOADED HO GAYI HAI LinkedIn par — ab dobara mat banana.**
 
-- **Text (APPROVED, final — isse badalna nahi):**
+- **Text (FINAL, approved version — isse badalna nahi; pehla draft isse replace kiya gaya):**
 ```
-Posters wouldn't load. Videos would lag the second you pressed play.
+Every IPTV app I tried before building mine had the same problem.
 
-So when I built MY IPTV, speed was the one thing I refused to compromise on.
-No lazy loading. A buffered-range system that keeps playback ready
-before you even notice it loading.
+Posters wouldn't load. Press play, and the video lags.
+You sit there watching a loading wheel, not the show.
 
-Now the home screen and video both open in under a second.
-If something does buffer, I've checked it myself — it's the
-viewer's internet, not the app.
+I got tired of it. So when I built MY IPTV, I made one rule:
+speed is non-negotiable.
 
-I didn't set out to build "another IPTV app."
-I set out to fix the two things that made every other one feel broken.
+No lazy loading. A buffered-range system that keeps the next
+part ready before you even notice it's loading.
 
-What's the one thing you refused to compromise on when you built your product?
+Now home opens in under a second. Video opens in under a second.
+If it ever buffers, I've checked it myself — that's your internet,
+not my app.
+
+I wasn't trying to build "another IPTV app."
+I was trying to fix the two things that make every other one
+feel broken the moment you open it.
+
+What's the one thing you refused to cut corners on when you built your product?
 
 #MobileApp #SoftwareDevelopment #ProductBuilding #FullStack
 ```
