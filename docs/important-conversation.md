@@ -3505,11 +3505,9 @@ feel broken the moment you open it.
 
 What's the one thing you refused to cut corners on when you built your product?
 
-Try it: https://myiptv.theottdeals.com/
-
 #MobileApp #SoftwareDevelopment #ProductBuilding #FullStack
 ```
-(Note: website link seedha post mein add kiya gaya hai, Hammad ke kehne par. LinkedIn andar link par reach thodi kam karta hai — behtar hota pehle comment mein link daalte — lekin Hammad ne post ke andar hi rakhwaya.)
+**Link ka tareeqa (FINAL):** Post body mein link NAHI daalna. Post daalne ke foran baad **pehle comment mein** ye daalo: `Try it: https://myiptv.theottdeals.com/` — isse reach poori milti hai aur link bhi mil jata hai. (Pehle post ke andar link daala gaya tha, Hammad ne khud mana karke best-practice wala tareeqa apnaya — dekho CLAUDE.md "LinkedIn rules".)
 - Story Bank se material: MY IPTV mein doosre apps posters load nahi karte the, lag hoti thi; mere app mein buffered-range system + no lazy loading se video aur home 1 second mein khulte hain; buffering ho to woh user ke internet ki wajah se hoti hai (khud check kiya).
 - Rules follow hui: koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi.
 - **Image abhi nahi bani** (Canva ka generation quota is session mein hit ho gaya tha).
