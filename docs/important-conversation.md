@@ -3480,7 +3480,7 @@ Save this if you're building (or fixing) a subscription product.
 
 ### 🤖 Claude  ·  2026-10-26 (isi session, baad mein)
 
-**✅ 3rd post (Jumeraat, "apni kahani" — MY IPTV ki speed) ka TEXT APPROVED hai. Image abhi BAQI hai.**
+**✅ 3rd post (Jumeraat, "apni kahani" — MY IPTV ki speed) UPLOADED HO GAYI HAI LinkedIn par — ab dobara mat banana.**
 
 - **Text (APPROVED, final — isse badalna nahi):**
 ```
@@ -3513,7 +3513,7 @@ What's the one thing you refused to compromise on when you built your product?
 - **Agle session/laptop ke liye seedha kaam:** in 4 screenshots ko Canva mein upload karo (`create-upload-url` → raw bytes POST → `upload-asset-from-url` ya seedha attachment upload), phir red/black MY IPTV brand style mein ek "sexy" premium LinkedIn image banao jisme in screenshots ka ek (jaise mobile 4-screen wala `03-mobile-home-live-player.webp`, ya Windows series grid `02-windows-app-series.webp`) istemal ho. Text upar wala text hi use karna hai (already approved, badalna nahi).
 - **✅ Image ban gayi hai (dusre Canva session connect hone ke baad, quota wapas aane par).** MY IPTV ke asli red/black brand mein, real mobile screenshot (`03-mobile-home-live-player.webp`) ke saath, headline "Built for speed."
   - **Image link:** https://www.canva.com/M/MAHZJd9ydJE
-- **Status: text + image dono ready hain. Bas LinkedIn par upload karna baqi hai.**
+- **Status: UPLOADED ho gayi hai LinkedIn par — dobara mat banana.**
 
 **Agla kaam:** Jumeraat post ki image (screenshots milne ke baad). Phir Juma (proof/offer) ki post abhi banani baqi hai — Story Bank se material use karna hai, same rules (koi mulk ka naam nahi, koi unconfirmed number nahi, "pehli/2nd/3rd post" ka zikr nahi).
 - Profile pehle theek karna hai: banner (bana hua `docs/cover-photo/`), headline, About, Featured.
